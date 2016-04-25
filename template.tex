@@ -6,7 +6,8 @@
 % LAYOUT
 %--------------------------------
 % Margins
-\usepackage{geometry} 
+
+\usepackage{geometry}
 \geometry{$geometry$}
 
 % Do not indent paragraphs
@@ -29,7 +30,7 @@ $endif$
 
 % TYPOGRAPHY
 %--------------------------------
-\usepackage{fontspec} 
+\usepackage{fontspec}
 \usepackage{xunicode}
 \usepackage{xltxtra}
 % converts LaTeX specials (quotes, dashes etc.) to Unicode
@@ -43,16 +44,16 @@ $endif$
 \usepackage{marginnote}
 \newcommand{\note}[1]{\marginnote{\scriptsize #1}}
 \renewcommand*{\raggedleftmarginnote}{}
-\setlength{\marginparsep}{7pt}
+\setlength{\marginparsep}{12pt}
 \reversemarginpar
 
 % HEADINGS
 %--------------------------------
-\usepackage{sectsty} 
-\usepackage[normalem]{ulem} 
-\sectionfont{\rmfamily\mdseries} 
-\subsectionfont{\rmfamily\mdseries\scshape\normalsize} 
-\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize} 
+\usepackage{sectsty}
+\usepackage[normalem]{ulem}
+\sectionfont{\rmfamily\mdseries}
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize}
+\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize}
 
 % PDF SETUP
 %--------------------------------
@@ -74,11 +75,17 @@ $endif$
 %--------------------------------
 \begin{document}
 
-{\LARGE $name$}\\[.2cm]
+{\LARGE \textbf{$name$}}\\[.2cm]
+{\LARGE $title$}\\[.2cm]
 
 $if(urls)$
 \begin{multicols}{2}
 $endif$
+
+
+\textbf{$age$}\\
+
+\vspace{-10pt}
 
 $for(address)$
 $address$\\
@@ -99,13 +106,13 @@ $endfor$
 \end{multicols}
 $endif$
 
-\vspace{30pt}
+\vspace{15pt}
 
 $if(intro)$
 $intro$
 $endif$
 
-\subsection*{Areas of Interest}
+\section*{Compétences}
 $if(skills)$
 \begin{itemize}
     $for(skills)$
@@ -116,23 +123,45 @@ $endif$
 
 % \vfill
 
-\vspace{25pt}
+\vspace{10pt}
 
-\section*{Previous Experience}
+\section*{Projets indépendant}
+\noindent
+$for(projets)$
+\note{$projets.years$}\textsc{$projets.name$}\\
+\emph{$projets.type$}\\
+$projets.detail$\\[.2cm]
+$endfor$
+$if(endprojet)$
+$endprojet$
+$endif$
+
+\section*{Experiences en entreprise}
 \noindent
 $for(experience)$
 \note{$experience.years$}\textsc{$experience.employer$}\\
 \emph{$experience.job$}\\
-$experience.city$\\[.2cm]
+$experience.description$\\[.2cm]
 $endfor$
 
 $if(education)$
-\section*{Education}
+\section*{Formation}
 \noindent
 $for(education)$
-\note{$education.year$}\textbf{$education.subject$}$if(education.degree)$, $education.degree$$endif$\\
-\emph{$education.institute$}$if(education.city)$, $education.city$$endif$\\[.2cm]
+\note{$education.year$}\textbf{$education.school$} $education.city$\\
+$education.diplom$\\
+\emph{$education.task1$}\\
+\emph{$education.task2$}\\
 $endfor$
+$endif$
+
+\section*{Divers}
+$if(others)$
+\begin{itemize}
+    $for(others)$
+      \item $others$
+    $endfor$
+\end{itemize}
 $endif$
 
 $if(languages)$

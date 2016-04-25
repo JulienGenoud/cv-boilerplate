@@ -1,54 +1,118 @@
 ---
 # Personal details
-name: Friedrich Nietzsche
+name: Julien Genoud
+title: Développeur Android
+
+
+age: "né le 15 aout 1991"
+
 address:
-- Humboldtstraße 36
-- 99425 Weimar
-- Prussia
-phone: "+49 03643 545400"
-email: friedrich@thevoid.de
+- Le Temple
+- 86110 Chouppes
+- France
+phone: "06 17 16 36 30"
+email: juliengenoud@gmail.com
 # Insert URLs without http://
 urls:
-- wki.pe/friedrich_nietzsche
-- twitter.com/tinynietzsche
+- juliengenoud.com
+- linkedin.com/in/juliengenoud
+- github.com/juliengenoud
 
 # Sections
 
-intro: "I know my fate. One day my name will be associated with the memory of something tremendous --- a crisis without equal on earth, the most profound collision of conscience, a decision that was conjured up against everything that had been believed, demanded, hallowed so far. I am no man, I am dynamite."
+# intro: "I know my fate. One day my name will be associated with the memory of something tremendous --- a crisis without equal on earth, the most profound collision of conscience, a decision that was conjured up against everything that had been believed, demanded, hallowed so far. I am no man, I am dynamite."
+# intro: "Je suis né le 15 aout 1991 à Poitiers. Depuis toujours passionné par l'informatique, c'est à l'âge de 20 ans que j'ai commencé à aimer créer pour les autres ayant toujours cru que l'avenir du monde allait passer par les smartphones. C'est donc naturellement que je me suis intéressé au developpement d'applications mobiles et tout ce qui gravite autour."
 
 skills:
-- Aesthetics, Ethics, Metaphysics, Nihilism
-- Psychology, Ontology, Poetry, Value theory
-- Voluntarism, Tragedy, Fact–value distinction
-- Anti-foundationalism, Philosophy of history
+- Android, iOS, back web, front web
+- C, C++, Java, Swift, Javascipt, HTML + CSS
+- Api Android (SDK + NDK), Node.js, React Native, OpenGL
+- OSX, Atom, Android Studio, Xcode, Git, Github
+
+
+projets:
+- years: depuis aout 2015
+  name: Viik.co
+  type: Application Android et iOS
+  detail: Réseau social de partage de vidéos.
+- years: depuis janvier 2016
+  name: Projet signature
+  type: Android Wear
+  detail: Réalisation complète d’une face pour android wear.
+- years: décembre 2015
+  name: Predica
+  type: Prestation client Android
+  detail: Réalisation complète de l’application d’agence du Crédit Agricole, intégration de design et de maquette en android natif, pour une application tablette avec beaucoup d’éléments d’interface.
+- years: août 2015 - avril 2016
+  name: News O Matic
+  type: Applications Android et Kindle
+  detail: Mise a jour complète de 6 applications pour press4kids avec des features très spécifiques.
+- years: juin 2015
+  name: marionbrizardlamour.fr
+  type: Site Web statique et responsive
+  detail: Intégration d'un design sur un site natif, html / css / angularJS.
+- years: depuis mars 2015
+  name: InFlight
+  type: Application Android et iOS + Watch
+  detail: Réalisation d’une application de correction de trajectoire pour pilotes d'avions basée sur les données du gps.
+- years: 2015
+  name: BlueWave
+  type: Chef d’une équipe de 6 personnes / Application Android
+  detail: Utilisations des objets connectés qui permettent aux enseignes, musées,	collectivités..., de communiquer directement à leurs clients avec un back office et des applications dédiées.
+- years: août - décembre 2014
+  name: Macanaille
+  type: Application Android
+  detail: Réalisation complète de l'application mobile macanaille avec le SDK android, appel webservices, notifications, fil de messages, réalisation de code natif…
+- years: 2014
+  name: Buridigla
+  type: Mairie de Bordeaux / Open Data
+  detail: Site Web permettant au Bordelais et aux touristes, de repérer les changements dans Bordeaux, passés et à venir, grâce à un site Web et une 	application Mobile.
+
+# endprojet : Beaucoup d'autres projets en cours ou mineurs.
 
 experience:
-- years: 1879--1889
-  employer: Freiberufler
-  job: Freier Philisoph
-  city: Sils-Maria
-- years: 1869–-1879
-  employer: Universität Basel
-  job: Professor für klassische Philologie
-  city: Basel
-- years: 1867--1868
-  employer: Preußischen Artillerie
-  job: Kanonier
-  city: Naumburg
+- years: avril 2015 à août 2015
+  employer: Fabzat
+  job: stagiaire en développement android
+  description: Mise à jour du plugin fabzat, graphismes, révision et optimisation du code.
+- years: août 2013 à décembre 2013
+  employer: Kasual Business
+  job: stagiaire en développement web et mobile
+  description: Réalisation d'un back-office et d'une d'une application mobile, de reconnaissance d'étiquettes de vins. Architecture d'une API permettant, à des interprofessions de rentrer leurs fiches 	vin, et aux utilisateurs de récupérer le service avec les applications Web et mobile. 
 
 education:
-- year: 1867
-  subject: Philology
-  institute: Leipzig Universität
-  city: Leipzig
-- year: 1864
-  subject: Abitur
-  institute: Schulpforta
-  city: Naumburg
+- year: 2012 à aujourd’hui
+  school: Epitech promotion 2017
+  diplom: Expert en technologie de l'information
+  task1: Président d'un laboratoire Google.
+  task2: Assistant Epitech en Région, aide pédagogique et assistance à l'école
+  task3:
+- year: diplomé en 2011
+  school: Lycée Victor Hugo
+  city : Poitiers
+  diplom: Baccalauréat général économique et social spécialité mathématiques
+  task1: Élu au conseil de la cie lycéenne et au conseil académique de la vie lycéenne
+
+others:
+- Anglais courant (parlé, lu, écrit).
+- Profil github.com, 419 followers.
+- Permis B, BAFA, PSC1.
+- Bénévole Croix-Rouge Française Bordeaux 2013 à 2015
+- Photographe conseil général de la Vienne Été 2012 et 2014
+- Google I/O San Francisco en 2013
+- Voyages, Suisse, États Unis, Irlande, Tunisie, Canada, Angleterre, Allemagne, Russie, Belgique, Espagne, Mexique, Chine (vécu 9 mois à pékin).
+
+
+
+#
+# - year: 1864
+#   subject: Abitur
+#   institute: Schulpforta
+#   city: Naumburg
 
 # Settings
 mainfont: Hoefler Text
 fontsize: 10pt
 lang: English
-geometry: a4paper, left=35mm, right=35mm, top=51mm, bottom=17mm
+geometry: a4paper, left=35mm, right=35mm, top=25mm, bottom=25mm
 ---
