@@ -125,7 +125,8 @@ $endif$
 
 \vspace{10pt}
 
-\section*{Projets indépendant}
+
+\section*{$projets-locale$}
 \noindent
 $for(projets)$
 \note{$projets.years$}\textsc{$projets.name$}\\
@@ -136,7 +137,7 @@ $if(endprojet)$
 $endprojet$
 $endif$
 
-\section*{Experiences en entreprise}
+\section*{$experience-locale$}
 \noindent
 $for(experience)$
 \note{$experience.years$}\textsc{$experience.employer$}\\
@@ -145,7 +146,7 @@ $experience.description$\\[.2cm]
 $endfor$
 
 $if(education)$
-\section*{Formation}
+\section*{$education-locale$}
 \noindent
 $for(education)$
 \note{$education.year$}\textbf{$education.school$} $education.city$\\
@@ -155,7 +156,7 @@ $education.diplom$\\
 $endfor$
 $endif$
 
-\section*{Divers}
+\section*{$others-locale$}
 $if(others)$
 \begin{itemize}
     $for(others)$

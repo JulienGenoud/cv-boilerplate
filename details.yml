@@ -30,6 +30,8 @@ skills:
 - OSX, Atom, Android Studio, Xcode, Git, Github
 
 
+projets-locale: "Projets indépendant"
+
 projets:
 - years: depuis aout 2015
   name: Viik.co
@@ -70,6 +72,8 @@ projets:
 
 # endprojet : Beaucoup d'autres projets en cours ou mineurs.
 
+experience-locale: "Experiences en entreprise"
+
 experience:
 - years: avril 2015 à août 2015
   employer: Fabzat
@@ -79,6 +83,8 @@ experience:
   employer: Kasual Business
   job: stagiaire en développement web et mobile
   description: Réalisation d'un back-office et d'une d'une application mobile, de reconnaissance d'étiquettes de vins. Architecture d'une API permettant, à des interprofessions de rentrer leurs fiches 	vin, et aux utilisateurs de récupérer le service avec les applications Web et mobile. 
+
+education-locale: "Formation"
 
 education:
 - year: 2012 à aujourd’hui
@@ -92,6 +98,8 @@ education:
   city : Poitiers
   diplom: Baccalauréat général économique et social spécialité mathématiques
   task1: Élu au conseil de la cie lycéenne et au conseil académique de la vie lycéenne
+
+others-locale: "Divers"
 
 others:
 - Anglais courant (parlé, lu, écrit).
