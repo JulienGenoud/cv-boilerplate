@@ -1,7 +1,7 @@
 ---
 # Personal details
 name: Julien Genoud
-title: Développeur Android
+title: Développeur Expert Android
 
 
 age: "né le 15 aout 1991"
@@ -40,35 +40,35 @@ projets:
 - years: depuis janvier 2016
   name: Projet signature
   type: Android Wear
-  detail: Réalisation complète d’une face pour android wear.
+  detail: Réalisation complète d’une watchface pour android wear.
 - years: décembre 2015
   name: Predica
-  type: Prestation client Android
+  type: Application tablette Android
   detail: Réalisation complète de l’application d’agence du Crédit Agricole, intégration de design et de maquette en android natif, pour une application tablette avec beaucoup d’éléments d’interface.
 - years: août 2015 - avril 2016
-  name: News O Matic
+  name: News-O-Matic
   type: Applications Android et Kindle
-  detail: Mise a jour complète de 6 applications pour press4kids avec des features très spécifiques.
+  detail: Mise a jour complète de 6 applications pour press4kids. Intégrations design, vues spécifiques, paiement par souscriptions, multiécrans, database sqlite, appels api, mise en cache...
 - years: juin 2015
-  name: marionbrizardlamour.fr
-  type: Site Web statique et responsive
+  name: MarionBrizardLamour.fr
+  type: Site internet statique et responsive
   detail: Intégration d'un design sur un site natif, html / css / angularJS.
 - years: depuis mars 2015
   name: InFlight
-  type: Application Android et iOS + Watch
-  detail: Réalisation d’une application de correction de trajectoire pour pilotes d'avions basée sur les données du gps.
+  type: Application Android, iOS + Wear (Android Wear + Apple Watch).
+  detail: Réalisation d’une application de correction de trajectoire et mise à dispotions de plusieurs outils en vol pour pilotes d'avions basée sur les données des capteurs.
 - years: 2015
   name: BlueWave
   type: Chef d’une équipe de 6 personnes / Application Android
-  detail: Utilisations des objets connectés qui permettent aux enseignes, musées,	collectivités..., de communiquer directement à leurs clients avec un back office et des applications dédiées.
+  detail: Utilisations des objets connectés qui permettent aux enseignes, musées,	collectivités..., de communiquer directement à leurs clients/visiteurs à travers une application android et iOS grace à une géolocatisation intérieure.
 - years: août - décembre 2014
   name: Macanaille
   type: Application Android
   detail: Réalisation complète de l'application mobile macanaille avec le SDK android, appel webservices, notifications, fil de messages, réalisation de code natif…
 - years: 2014
   name: Buridigla
-  type: Mairie de Bordeaux / Open Data
-  detail: Site Web permettant au Bordelais et aux touristes, de repérer les changements dans Bordeaux, passés et à venir, grâce à un site Web et une 	application Mobile.
+  type: Site Internet, angularJS
+  detail: Site internet permettant au Bordelais et aux touristes, de repérer les changements dans Bordeaux, passés et à venir.
 
 # endprojet : Beaucoup d'autres projets en cours ou mineurs.
 
@@ -78,11 +78,11 @@ experience:
 - years: avril 2015 à août 2015
   employer: Fabzat
   job: stagiaire en développement android
-  description: Mise à jour du plugin fabzat, graphismes, révision et optimisation du code.
+  description: Mise à jour du plugin fabzat, des graphismes, révision et optimisation du code.
 - years: août 2013 à décembre 2013
   employer: Kasual Business
   job: stagiaire en développement web et mobile
-  description: Réalisation d'un back-office et d'une d'une application mobile, de reconnaissance d'étiquettes de vins. Architecture d'une API permettant, à des interprofessions de rentrer leurs fiches 	vin, et aux utilisateurs de récupérer le service avec les applications Web et mobile. 
+  description: Réalisation d'un back-office et d'une d'une application mobile, de reconnaissance d'étiquettes de vins. Architecture d'une API permettant, à des interprofessions de renseigner leurs fiches vin sur un portail web. 
 
 education-locale: "Formation"
 
@@ -97,7 +97,7 @@ education:
   school: Lycée Victor Hugo
   city : Poitiers
   diplom: Baccalauréat général économique et social spécialité mathématiques
-  task1: Élu au conseil de la cie lycéenne et au conseil académique de la vie lycéenne
+  task1: Élu au conseil de la vie lycéenne et au conseil académique de la vie lycéenne
 
 others-locale: "Divers"
 
@@ -105,7 +105,7 @@ others:
 - Anglais courant (parlé, lu, écrit).
 - Profil github.com, 419 followers.
 - Permis B, BAFA, PSC1.
-- Bénévole Croix-Rouge Française Bordeaux 2013 à 2015
+- Bénévole Croix Rouge Française Bordeaux 2013 à 2015
 - Photographe conseil général de la Vienne Été 2012 et 2014
 - Google I/O San Francisco en 2013
 - Voyages, Suisse, États Unis, Irlande, Tunisie, Canada, Angleterre, Allemagne, Russie, Belgique, Espagne, Mexique, Chine (vécu 9 mois à pékin).
