@@ -125,11 +125,36 @@ $endif$
 
 \vspace{10pt}
 
+\section*{$experience-locale$}
+\noindent
+$for(experience)$
+\note{$experience.years$}\textsc{$experience.employer$}\\
+$if(experience.job)$
+\emph{$experience.job$}\\
+$endif$
+$experience.description$\\[.1cm]
+{\bf $experience.missions$}\\[.1cm]
+$if(experience.projets)$
+  $for(experience.projets)$
+  \textsc{$experience.projets.name$}
+  $if(experience.projets.link)$
+  \href{$experience.projets.link$}{$experience.projets.linkname$}
+  $endif$
+  \\
+  \emph{$experience.projets.type$}\\
+  $experience.projets.detail$\\[.15cm]
+  $endfor$\\[.1cm]
+$endif$
+$endfor$
 
 \section*{$projets-locale$}
 \noindent
 $for(projets)$
-\note{$projets.years$}\textsc{$projets.name$}\\
+\note{$projets.years$}\textsc{$projets.name$}
+$if(projets.link)$
+\href{$projets.link$}{$projets.linkname$}
+$endif$
+\\
 \emph{$projets.type$}\\
 $projets.detail$\\[.2cm]
 $endfor$
@@ -137,13 +162,7 @@ $if(endprojet)$
 $endprojet$
 $endif$
 
-\section*{$experience-locale$}
-\noindent
-$for(experience)$
-\note{$experience.years$}\textsc{$experience.employer$}\\
-\emph{$experience.job$}\\
-$experience.description$\\[.2cm]
-$endfor$
+
 
 $if(education)$
 \section*{$education-locale$}
@@ -155,6 +174,16 @@ $education.diplom$\\
 \emph{$education.task2$}\\
 $endfor$
 $endif$
+
+\section*{$lang-locale$}
+$if(langues)$
+\begin{itemize}
+    $for(langues)$
+      \item $langues$
+    $endfor$
+\end{itemize}
+$endif$
+
 
 \section*{$others-locale$}
 $if(others)$
