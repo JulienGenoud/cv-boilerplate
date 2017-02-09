@@ -132,8 +132,9 @@ $for(experience)$
 $if(experience.job)$
 \emph{$experience.job$}\\
 $endif$
-$experience.description$\\[.1cm]
-{\bf $experience.missions$}\\[.1cm]
+$experience.description$\\
+{\bf \small $experience.technique$}\\[.1cm]
+{\large\bf $experience.missions$}\\[.1cm]
 $if(experience.projets)$
   $for(experience.projets)$
   \textsc{$experience.projets.name$}
@@ -142,7 +143,8 @@ $if(experience.projets)$
   $endif$
   \\
   \emph{$experience.projets.type$}\\
-  $experience.projets.detail$\\[.15cm]
+  $experience.projets.detail$\\
+  {\bf\small $experience.projets.technique$}\\[.15cm]
   $endfor$\\[.1cm]
 $endif$
 $endfor$
@@ -156,7 +158,8 @@ $if(projets.link)$
 $endif$
 \\
 \emph{$projets.type$}\\
-$projets.detail$\\[.2cm]
+$projets.detail$\\
+{\bf \small $projets.technique$}\\[.2cm]
 $endfor$
 $if(endprojet)$
 $endprojet$

@@ -1,7 +1,7 @@
 ---
 # Personal details
 name: Julien Genoud
-title: Développeur Expert Android
+title: Développeur Android
 
 
 age: "né le 15 aout 1991"
@@ -26,8 +26,9 @@ urls:
 skills:
 - Android, iOS, back web, front web
 - C, C++, Java, Swift, Javascipt, HTML + CSS
-- Api Android (SDK + NDK), Node.js, React Native, OpenGL
-- OSX, Atom, Android Studio, Xcode, Git, Github
+- Api Android (SDK + NDK), Gradle, Node.js, React Native, OpenGL
+- OSX / Linux, Atom, Android Studio, Xcode, Git, Github
+
 
 
 experience-locale: "Experiences professionnelle"
@@ -35,72 +36,84 @@ experience-locale: "Experiences professionnelle"
 experience:
 - years: depuis 2013
   employer: Développeur Freelance
-  description: Créations de sites internet, web applications, apps mobiles. Prestations aux entreprises et institutions autour des objects connectés et de l'internet des objets.
+  description: Créations d'applications mobiles, de sites internet, web applications. Prestations aux entreprises et institutions autour des objects connectés et de l'internet des objets.
   missions: Missions
   projets :
   - name: Predica
     type: Application tablette Android
     detail: Réalisation complète de l’application d’agence du Crédit Agricole, intégration de design et de maquette en android natif, pour une application tablette avec beaucoup d’éléments d’interface.
+    technique: "SDK Android, Full Natif, itextpdf, Git"
   - name: News-O-Matic
     type: Applications Android et Kindle
     detail: Mise a jour complète de 6 applications pour press4kids. Intégrations design, vues spécifiques, paiement par souscriptions, multi-écrans, database sqlite, appels api, mise en cache...
     link: https://play.google.com/store/apps/developer?id=Press4Kids
     linkname: Google Play
+    technique: "SDK Android, Git, REST HttpClient, SharedPrefs, Json, SQlite, InApps"
   - name: Macanaille
     type: Application Android
     detail: Réalisation complète de l'application mobile macanaille avec le SDK android, appel webservices, notifications, fil de messages, réalisation de code natif…
     link: https://play.google.com/store/apps/details?id=app.macanaille.fr
     linkname: Google Play
+    technique: "SDK Android, Git, HttpClient, Json, SQlite, notifications"
 
 - years: avril 2015 à août 2015
   employer: Fabzat
   job: Développement android
-  description: Mise à jour du plugin fabzat, des graphismes, révision et optimisation du code.
+  description: Mise à jour d'une librairie déstinée au devellopeurs de jeux video pour y intégrer des modèles 3D à imprimer. Mise à jour des graphismes, révision et optimisation du code.
+  technique: "SDK/NDK Android, Git (+git submodules), C++, OpenGL, Webviews"
 - years: août 2013 à décembre 2013
   employer: Kasual Business
   job: Développement web et mobile
   description: Réalisation d'un back-office et d'une d'une application mobile, de reconnaissance d'étiquettes de vins. Architecture d'une API permettant, à des interprofessions de renseigner leurs fiches vin sur un portail web. 
-
+  technique: "Ruby on Rails, API REST, Android SDK, Git"
 
 projets-locale: "Projets personnels et éducatifs"
 
 projets:
 - years: depuis Mai 2016
   name: Esquiss
-  type: Application Android et iOS, PC + Backend nodeJS
-  detail: Application créative de collaboration sur des dessins sur Android, sur iOS et windows 10.
+  type: Application Android et iOS et Desktop
+  detail: Application créative de collaboration sur des dessins sur Android, sur iOS et sur desktop.
+  technique: "SDK Android, SDK iOS, Git, RXJava, Retrofit, Realm, Serveur NodeJS REST + Express"
 - years: depuis aout 2015
   name: Viik.co
   type: Application Android et iOS
-  detail: Réseau social de partage de vidéos réalisé en code natif.
+  detail: Réseau social de partage et d'éditions de vidéos.
+  technique: "SDK Android, Git, RXJava, Retrofit, Realm, OpenCV, framework FFmpeg"
 - years: depuis janvier 2016
   name: Projet signature
   type: Android Wear
   detail: Réalisation complète d’une watchface pour android wear.
+  technique: "SDK Android, Git, Canvas"
 - years: juin 2015
   name: MarionBrizardLamour.fr
   link: https://www.marionbrizardlamour.fr
   linkname: site
-  type: Site internet statique et responsive en AngularJS et hebergement.
-  detail: Intégration d'un design sur un site natif, html / css / angularJS.
+  type: Site internet statique et responsive.
+  detail: Intégration d'un design sur un site natif.
+  technique: "HTML, CSS, Boostrap, AngularJS router"
 - years: depuis mars 2015
   name: InFlight
   type: Application Android, iOS, Android Wear, Apple Watch.
   detail: Réalisation d’une application de correction de trajectoire et mise à dispositions de plusieurs outils en vol pour pilotes d'avions basée sur les données des capteurs.
+  technique: "SDK Android, SDK iOS, Geolocation, GPS, Sensors"
 - years: de janvier à mai 2015
   name: BlueWave
   link: https://github.com/JulienGenoud/BlueWave-Android
   linkname: github
   type: Chef d’une équipe de 6 personnes / Application Android
   detail: Utilisations des objets connectés qui permettent aux enseignes, musées,	collectivités..., de communiquer directement à leurs clients/visiteurs à travers une application android et iOS grace à une géolocatisation intérieure.
+  technique: "Leadership, SDK Android, Material Design, Bluetooh Low Energy"
 - years: fin 2014
   name: Advice Glass
   type: Application Google Glass
   detail: Manuel pour viticulteurs, sur les maladies d'une vigne accessibles sur google glass.
+  technique: "SDK Google Glass"
 - years: début 2014
   name: Buridigla
-  type: Site Internet avec AngularJS
+  type: Site Internet
   detail: Site internet permettant au Bordelais et aux touristes, de repérer les changements dans Bordeaux, passés et à venir.
+  technique: "HTML, CSS, AngularJS"
 
 # endprojet : Beaucoup d'autres projets en cours ou mineurs.
 
@@ -129,10 +142,10 @@ others-locale: "Centres d’intérêts"
 
 others:
   # - Permis B, BAFA, PSC1.
-- Open Sourche sur Github.com, 430 followers.
+- Open Source sur Github.com, 430 followers.
 - Bénévole Croix Rouge Française de 2013 à 2015
-- Photographe conseil général de la Vienne Été 2012 et 2014
-- Participation à la Google I/O San Francisco en 2013
+- Photographe conseil général de la Vienne été 2012 et 2014
+- Participation à la Google I/O à San Francisco en 2013
 - Voyages ; Suisse, États Unis, Irlande, Tunisie, Canada, Angleterre, Allemagne, Russie, Belgique, Espagne, Mexique, Chine (vécu 9 mois à pékin).
 
 
