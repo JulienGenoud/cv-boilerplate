@@ -1,10 +1,10 @@
 ---
 # Personal details
 name: Julien Genoud
-title: Développeur Android
+title: Android Developer
 
 
-age: "né le 15 aout 1991"
+age: "born on the 15th of August 1991"
 
 address:
 - Le Temple
@@ -31,12 +31,12 @@ skills:
 
 
 
-experience-locale: "Experiences professionnelle"
+experience-locale: "Professional Experiences"
 
 experience:
 - years: depuis 2013
-  employer: Développeur Freelance
-  description: Créations d'applications mobiles, de sites internet, web applications. Prestations aux entreprises et institutions autour des objects connectés et de l'internet des objets.
+  employer: Freelance Developer
+  description:  Creation of mobile applications, websites, web applications.
   missions: Missions
   projets :
   - name: Predica
