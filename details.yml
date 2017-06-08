@@ -23,9 +23,11 @@ urls:
 # intro: "I know my fate. One day my name will be associated with the memory of something tremendous --- a crisis without equal on earth, the most profound collision of conscience, a decision that was conjured up against everything that had been believed, demanded, hallowed so far. I am no man, I am dynamite."
 # intro: "Je suis né le 15 aout 1991 à Poitiers. Depuis toujours passionné par l'informatique, c'est à l'âge de 20 ans que j'ai commencé à aimer créer pour les autres ayant toujours cru que l'avenir du monde allait passer par les smartphones. C'est donc naturellement que je me suis intéressé au developpement d'applications mobiles et tout ce qui gravite autour."
 
+skills-locale: "Compétences"
+
 skills:
-- Android, iOS, back web, front web
-- C, C++, Java, Swift, Javascipt, HTML + CSS
+- Android Expert Developer
+- C, C++, Java, Koltin, Javascipt, HTML + CSS
 - Api Android (SDK + NDK), Gradle, Node.js, React Native, OpenGL
 - OSX / Linux, Atom, Android Studio, Xcode, Git, Github
 

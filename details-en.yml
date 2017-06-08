@@ -1,0 +1,184 @@
+---
+# Personal details
+name: Julien Genoud
+title: Android Developer
+
+
+age: "Age 25"
+
+address:
+- Le Temple
+- 86110 Chouppes
+- France
+phone: "06 17 16 36 30"
+email: juliengenoud@gmail.com
+# Insert URLs without http://
+urls:
+- juliengenoud.com
+- linkedin.com/in/juliengenoud
+- github.com/juliengenoud
+
+# Sections
+
+# intro: "I know my fate. One day my name will be associated with the memory of something tremendous --- a crisis without equal on earth, the most profound collision of conscience, a decision that was conjured up against everything that had been believed, demanded, hallowed so far. I am no man, I am dynamite."
+# intro: "Je suis né le 15 aout 1991 à Poitiers. Depuis toujours passionné par l'informatique, c'est à l'âge de 20 ans que j'ai commencé à aimer créer pour les autres ayant toujours cru que l'avenir du monde allait passer par les smartphones. C'est donc naturellement que je me suis intéressé au developpement d'applications mobiles et tout ce qui gravite autour."
+
+skills-locale: "Skills"
+
+skills:
+- Android, iOS, back web, front web
+- C, C++, Java, Swift, Javascipt, HTML + CSS
+- Api Android (SDK + NDK), Gradle, Node.js, React Native, OpenGL
+- OSX / Linux, Atom, Android Studio, Xcode, Git, Github
+
+
+experience-locale: "Professional Experiences"
+
+experience:
+- years: since 2013
+  employer: Freelance Developer
+  description: Creation of mobile applications, websites, web applications. Services to companies and institutions around connected objects and the Internet of objects.
+  missions: Missions
+  projects:
+  - name: Predica
+    type: Android tablet application
+    detail: Complete realization of the Crédit Agricole agency application, integration of design and mock-up in native android, for a tablet application with many interface elements.
+    technique: "SDK Android, Full Native, itextpdf, Git"
+  - name: News-O-Matic
+    type: Android and Kindle
+    detail: Complete update of 6 applications for press4kids. Integrations design, specific views, payment by subscriptions, multi-screen, sqlite database, api calls, caching ...
+    link: https://play.google.com/store/apps/developer?id=Press4Kids
+    linkname: Google Play
+    technique: "Android SDK, Git, REST HttpClient, SharedPrefs, Json, SQlite, InApps"
+  - name: Macanaille
+    type: Android Application
+    detail: Complete realization of the macanaille mobile application with the android SDK, webservices call, notifications, message thread, native code realization ...
+    link: https://play.google.com/store/apps/details?id=app.macanaille.fr
+    tinkname: Google Play
+    technique: "Android SDK, Git, HttpClient, Json, SQlite, notifications"
+
+- years: April 2015 to August 2015
+  employer: Fabzat
+  job: Development android
+  description: Update of a library dedicated to the devellopeurs of video games to integrate 3D models to print. Updating graphics, revising and optimizing code.
+  technical: "SDK / NDK Android, Git (+ git submodules), C ++, OpenGL, Webviews"
+- years: August 2013 to December 2013
+  Use: Kasual Business
+  Job: Web and mobile development
+  description: Realization of a back office and a mobile application, recognition of wine labels. Architecture of an API allowing interprofessions to inform their wine records on a web portal.
+  technique: "Ruby on Rails, API REST, Android SDK, Git"
+
+projets-locale: "Personal and educational projects"
+
+projets:
+- years: since May 2016
+  name: Esquiss
+  type: Android Application and iOS and Desktop
+  detail: Creative collaboration application on drawings on Android, iOS and desktop.
+  technique: "Android SDK, iOS SDK, Git, RXJava, Retrofit, Realm, NodeJS Server REST + Express"
+- years: since august 2015
+  name: Viik.co
+  type: Android Application and iOS
+  detail: Social network sharing and video editing.
+  technical: "Android SDK, Git, RXJava, Retrofit, Realm, OpenCV, FFmpeg framework"
+- years: since January 2016
+  name: Project signature
+  type: Android Wear
+  detail: Complete realization of a watchface for android wear.
+  technical: "SDK Android, Git, Canvas"
+- years: June 2015
+  name: MarionBrizardLamour.fr
+  link: https://www.marionbrizardlamour.fr
+  linkname: site
+  type: Static and responsive website.
+  detail: Integration of a design on a native site.
+  technique: "HTML, CSS, Boostrap, AngularJS router"
+- years: since March 2015
+  name: InFlight
+  type: Android Application, iOS, Android Wear, Apple Watch.
+  detail: Realization of a correction application of trajectory and provision of several tools in flight for pilots of planes based on the data of the sensors.
+  technique: "Android SDK, iOS SDK, Geolocation, GPS, Sensors"
+- years: from January to May 2015
+  name: BlueWave
+  link: https://github.com/JulienGenoud/BlueWave-Android
+  linkname: github
+  type: Head of a team of 6 people / Android Application
+  detail: Uses of connected objects that allow the signs, museums, communities ..., to communicate directly to their customers / visitors through an application android and iOS thanks to an internal geolocation.
+  technique: "Leadership, Android SDK, Material Design, Bluetooh Low Energy"
+- years: end of 2014
+  name: Advice Glass
+  type: Google Glass Application
+  detail: Manual for winegrowers, on the diseases of a vine accessible on google glass.
+  technique: "SDK Google Glass"
+- years: early 2014
+  name: Buridigla
+  type: Website
+  detail: Web site allowing the Bordeaux and tourists, to locate the changes in Bordeaux, past and future.
+  technical: "HTML, CSS, AngularJS"
+
+# Endprojet: Many other ongoing or minor projects.
+
+education-locale: "Formation"
+
+education:
+- year: 2012 to today
+  school: Epitech promotion 2017
+  diplom: Expert in Information Technology
+  task1: President of a Google laboratory.
+  task2: Epitech Assistant in the Region, pedagogical assistance and assistance to the school
+  task3:
+- year: graduated in 2011
+  school: Lycée Victor Hugo
+  city: Poitiers
+  diplom: Bachelor's degree in economics and social specialty mathematics
+  task1: Elected to the board of high school life and the academic council of high school life
+
+lang-locale: "Spoken Languages"
+
+langues:
+- French mother language
+- English, fluent (spoken, read, written).
+
+# education-locale: "Formation"
+#
+# education:
+# - year: 2012 à aujourd’hui
+#   school: Epitech promotion 2017
+#   diplom: Expert en technologie de l'information
+#   task1: Président d'un laboratoire Google.
+#   task2: Assistant Epitech en Région, aide pédagogique et assistance à l'école
+#   task3:
+# - year: diplomé en 2011
+#   school: Lycée Victor Hugo
+#   city : Poitiers
+#   diplom: Baccalauréat général économique et social spécialité mathématiques
+#   task1: Élu au conseil de la vie lycéenne et au conseil académique de la vie lycéenne
+#
+# lang-locale: "Spoken Languages"
+#
+# langues:
+# - Français, langue maternelle
+# - Anglais, courant (parlé, lu, écrit).
+
+others-locale: "Interests"
+
+others:
+  # - License B, BAFA, PSC1.
+- Open Source on Github.com, 430 followers.
+- French Red Cross Volunteer from 2013 to 2015
+- Photographer general council of the Vienne summer 2012 and 2014
+- Participation in the Google I / O in San Francisco in 2013
+- Travel; Switzerland, United States, Ireland, Tunisia, Canada, England, Germany, Russia, Belgium, Spain, Mexico, China (lived 9 months in Beijing).
+
+#
+# - year: 1864
+#   subject: Abitur
+#   institute: Schulpforta
+#   city: Naumburg
+
+# Settings
+mainfont: Hoefler Text
+fontsize: 10pt
+lang: English
+geometry: a4paper, left=35mm, right=35mm, top=25mm, bottom=25mm
+---

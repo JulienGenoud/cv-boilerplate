@@ -112,7 +112,7 @@ $if(intro)$
 $intro$
 $endif$
 
-\section*{Compétences}
+\section*{$skills-locale$}
 $if(skills)$
 \begin{itemize}
     $for(skills)$
@@ -195,13 +195,6 @@ $if(others)$
       \item $others$
     $endfor$
 \end{itemize}
-$endif$
-
-$if(languages)$
-\section*{Languages}
-$for(languages)$
-\emph{$languages.language$} ($languages.proficiency$)\\
-$endfor$
 $endif$
 
 \end{document}
