@@ -23,11 +23,15 @@ urls:
 # intro: "I know my fate. One day my name will be associated with the memory of something tremendous --- a crisis without equal on earth, the most profound collision of conscience, a decision that was conjured up against everything that had been believed, demanded, hallowed so far. I am no man, I am dynamite."
 # intro: "Je suis né le 15 aout 1991 à Poitiers. Depuis toujours passionné par l'informatique, c'est à l'âge de 20 ans que j'ai commencé à aimer créer pour les autres ayant toujours cru que l'avenir du monde allait passer par les smartphones. C'est donc naturellement que je me suis intéressé au developpement d'applications mobiles et tout ce qui gravite autour."
 
+# intro-locale: "Intro"
+# intro :
+#   I'am passionate in mobile developpement since the first smartphone, I love to create and to
+
 skills-locale: "Skills"
 
 skills:
 - Android, iOS, back web, front web
-- C, C++, Java, Swift, Javascipt, HTML + CSS
+- C, C++, Java, Kotlin, Swift, Javascipt, HTML + CSS
 - Api Android (SDK + NDK), Gradle, Node.js, React Native, OpenGL
 - OSX / Linux, Atom, Android Studio, Xcode, Git, Github
 
@@ -37,40 +41,65 @@ experience-locale: "Professional Experiences"
 experience:
 - years: since 2013
   employer: Freelance Developer
-  description: Creation of mobile applications, websites, web applications. Services to companies and institutions around connected objects and the Internet of objects.
+  description: Creation of mobile applications, websites, web applications.
   missions: Missions
-  projects:
+  projets :
+  - name: Udemy
+    detail: Parterniship with Udemy to create a new online course in French.
+    technique: "Android Teacher"
+  - name: MediaSize
+    type: Android app
+    detail: Leading an Android Team for an app designed for Cabs.
+    link: http://www.mediasize.fr/
+    linkname: website
+    technique: "Leading, project organisation"
+  - name: Studio +
+    type: Android app
+    detail: App for Canal+, Premium mobiles Series
+    link: https://play.google.com/store/apps/details?id=com.watchever.studioplus
+    linkname: Google Play
+    technique: "SDK Android, Exoplayer"
+  - name: WatchMusic
+    type: Android appplication
+    detail: WatchMusic, Watch video Clip on Your phones.
+    link: https://play.google.com/store/apps/details?id=com.watchmusic.app
+    linkname: Google Play
+    technique: "SDK Android, Exoplayer"
   - name: Predica
-    type: Android tablet application
-    detail: Complete realization of the Crédit Agricole agency application, integration of design and mock-up in native android, for a tablet application with many interface elements.
-    technique: "SDK Android, Full Native, itextpdf, Git"
+    type: Android Tablet App
+    detail: Complete realization of the agency application of Crédit Agricole, integration of design and mock-up in native android, with many elements of interface.
+    technique: "SDK Android, Full Natif, itextpdf, Git"
   - name: News-O-Matic
-    type: Android and Kindle
+    type: Applications Android et Kindle
     detail: Complete update of 6 applications for press4kids. Integrations design, specific views, payment by subscriptions, multi-screen, sqlite database, api calls, caching ...
     link: https://play.google.com/store/apps/developer?id=Press4Kids
     linkname: Google Play
-    technique: "Android SDK, Git, REST HttpClient, SharedPrefs, Json, SQlite, InApps"
+    technique: "SDK Android, Git, REST HttpClient, SharedPrefs, Json, SQlite, InApps"
   - name: Macanaille
-    type: Android Application
+    type: Android App
     detail: Complete realization of the macanaille mobile application with the android SDK, webservices call, notifications, message thread, native code realization ...
     link: https://play.google.com/store/apps/details?id=app.macanaille.fr
-    tinkname: Google Play
-    technique: "Android SDK, Git, HttpClient, Json, SQlite, notifications"
-
+    linkname: Google Play
+    technique: "SDK Android, Git, HttpClient, Json, SQlite, notifications"
 - years: April 2015 to August 2015
   employer: Fabzat
   job: Development android
-  description: Update of a library dedicated to the devellopeurs of video games to integrate 3D models to print. Updating graphics, revising and optimizing code.
+  description: Update of a library dedicated to the developers of video games to integrate 3D models to print. Updating graphics, revising and optimizing code.
   technical: "SDK / NDK Android, Git (+ git submodules), C ++, OpenGL, Webviews"
 - years: August 2013 to December 2013
-  Use: Kasual Business
-  Job: Web and mobile development
+  employer: Kasual Business
+  job: Web and mobile development
   description: Realization of a back office and a mobile application, recognition of wine labels. Architecture of an API allowing interprofessions to inform their wine records on a web portal.
   technique: "Ruby on Rails, API REST, Android SDK, Git"
 
 projets-locale: "Personal and educational projects"
 
 projets:
+- years: since Dec 2016
+  name: Kosette
+  type: Android Application and iOS
+  detail: Application allow you to meet new people in transport and locally without internet.
+  technique: "Android SDK, iOS SDK, Git, RXJava, Retrofit, Realm, Bluetooth"
 - years: since May 2016
   name: Esquiss
   type: Android Application and iOS and Desktop
@@ -130,14 +159,15 @@ education:
 - year: graduated in 2011
   school: Lycée Victor Hugo
   city: Poitiers
-  diplom: Bachelor's degree in economics and social specialty mathematics
-  task1: Elected to the board of high school life and the academic council of high school life
+  diplom: Bachelor's degree in economics and social with mathematics specialty.
+  task1: Elected to the board of high school life and the academic council of high school life.
 
 lang-locale: "Spoken Languages"
 
 langues:
 - French mother language
 - English, fluent (spoken, read, written).
+- Spanish, basic.
 
 # education-locale: "Formation"
 #
@@ -164,11 +194,12 @@ others-locale: "Interests"
 
 others:
   # - License B, BAFA, PSC1.
-- Open Source on Github.com, 430 followers.
+- Open Source on Github.com, 490 followers.
 - French Red Cross Volunteer from 2013 to 2015
-- Photographer general council of the Vienne summer 2012 and 2014
-- Participation in the Google I / O in San Francisco in 2013
-- Travel; Switzerland, United States, Ireland, Tunisia, Canada, England, Germany, Russia, Belgium, Spain, Mexico, China (lived 9 months in Beijing).
+- The Restaurants du Cœur from 2016
+- Photographer in the Vienne Departement summer 2012 and 2014
+- Google I/O in San Francisco in 2013
+- Travel; Switzerland, United States, Ireland, Tunisia, Canada, England, Germany, Russia, Belgium, Spain, Mexico, China (lived 9 months in Beijing), Sweeden.
 
 #
 # - year: 1864

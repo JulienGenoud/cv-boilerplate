@@ -108,9 +108,14 @@ $endif$
 
 \vspace{15pt}
 
+$if(intro-locale)$
+\section*{$intro-locale$}
+$endif$
+
 $if(intro)$
 $intro$
 $endif$
+
 
 \section*{$skills-locale$}
 $if(skills)$
@@ -142,7 +147,9 @@ $if(experience.projets)$
   \href{$experience.projets.link$}{$experience.projets.linkname$}
   $endif$
   \\
+  $if(experience.projets.type)$
   \emph{$experience.projets.type$}\\
+  $endif$
   $experience.projets.detail$\\
   {\bf\small $experience.projets.technique$}\\[.15cm]
   $endfor$\\[.1cm]
