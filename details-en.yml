@@ -40,16 +40,16 @@ experience-locale: "Professional Experiences"
 
 experience:
 - years: since 2013
-  employer: Freelance Developer
+  employer: Developer Consultant
   description: Creation of mobile applications, websites, web applications.
   missions: Missions
   projets :
   - name: Udemy
-    detail: Parterniship with Udemy to create a new online course in French.
+    detail: Paterniship with Udemy to create a new online French course.
     technique: "Android Teacher"
   - name: MediaSize
     type: Android app
-    detail: Leading an Android Team for an app designed for Cabs.
+    detail: Leading an Android Team for an app designed for cabs.
     link: http://www.mediasize.fr/
     linkname: website
     technique: "Leading, project organisation"
