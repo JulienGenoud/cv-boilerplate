@@ -152,21 +152,21 @@ education-locale: "Formation"
 education:
 - year: 2012 to today
   school: Epitech promotion 2017
-  diplom: Expert in Information Technology
+  diplom: Expert in Information Technology (Bachelor degree equivalent)
   task1: President of a Google laboratory.
   task2: Epitech Assistant in the Region, pedagogical assistance and assistance to the school
   task3:
 - year: graduated in 2011
-  school: Lycée Victor Hugo
+  school: Lycée Victor Hugo (high school)
   city: Poitiers
-  diplom: Bachelor's degree in economics and social with mathematics specialty.
+  diplom: Baccalaureate in economics and social with mathematics specialty.
   task1: Elected to the board of high school life and the academic council of high school life.
 
 lang-locale: "Spoken Languages"
 
 langues:
-- French mother language
-- English, fluent (spoken, read, written).
+- French native language
+- English, fluent (spoken, read and written).
 - Spanish, basic.
 
 # education-locale: "Formation"
@@ -195,10 +195,10 @@ others-locale: "Interests"
 others:
   # - License B, BAFA, PSC1.
 - Open Source on Github.com, 490 followers.
-- French Red Cross Volunteer from 2013 to 2015
-- The Restaurants du Cœur from 2016
-- Photographer in the Vienne Departement summer 2012 and 2014
 - Google I/O in San Francisco in 2013
+- French Red Cross Volunteer from 2013 to 2015
+- The Restaurants du Cœur from 2016 to present
+- Photographer in the Vienne Departement summer 2012 and 2014
 - Travel; Switzerland, United States, Ireland, Tunisia, Canada, England, Germany, Russia, Belgium, Spain, Mexico, China (lived 9 months in Beijing), Sweeden.
 
 #
